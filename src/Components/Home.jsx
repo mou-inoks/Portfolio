@@ -1,14 +1,14 @@
 import React from 'react'
-import styles, { layout } from '../style';
+import styles from '../style';
 import ReactTypingEffect from 'react-typing-effect'
 
 const Home = () => {
   return (
    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-   <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-26 px-6`}>
+   <div className={`flex-1 ${styles.flexStart} flex-col`}>
      <div className="flex flex-row justify-between items-center w-full">
        <h1 className="flex-1 font-poppins font-semibold ss:text-[82px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] text-center">
-         Hi, I'm <br className="sm:block hidden" />{" "}
+         Hi, I'm <br className="sm:block hidden" />
          <ReactTypingEffect
         text={["Salim Mouttaki", "Apprentice Developper"]}
         cursorRenderer={cursor => <h1>{cursor}</h1>}
