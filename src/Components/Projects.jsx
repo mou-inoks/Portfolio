@@ -1,14 +1,15 @@
 import { projects } from "../Constant";
 import styles, { layout } from "../style";
 import ProjectCards from "./ProjectCard";
+import { Container, Row, Col } from "react-bootstrap";
 
-
-
-const Projects = (props) =>  (
+const Projects = () => (
   <section id="projects" className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Projects</h2>
-      <ProjectCards />
+    <div className="flex flex-row justify-between items-center w-full">
+      <h1 className="flex-1 font-poppins font-thin ss:text-[62px] text-white leading-[75px] text-center absolute inset-x-0 top-full">
+        Projects
+      </h1>
+      <ProjectCards title="Hello" content="I am the content" link="#" />
     </div>
   </section>
 );
