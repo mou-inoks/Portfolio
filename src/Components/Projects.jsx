@@ -9,7 +9,7 @@ const Projects = () => (
       <h1 className="flex-1 font-poppins font-thin ss:text-[62px] text-white leading-[75px] text-center absolute inset-x-0 top-full">
         Projects
       </h1>
-      <ProjectCards title="Hello" content="I am the content" link="#" />
+      <ProjectCards/>
     </div>
   </section>
 );

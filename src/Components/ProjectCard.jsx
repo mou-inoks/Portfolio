@@ -1,134 +1,115 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-const ProjectCards = (props) => {
+const ProjectCards = () => {
   return (
-    <div class="ag-format-container">
-  <div class="ag-courses_box">
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
+    <div className="ag-format-container">
+      <div className="ag-courses_box">
+        <div className="ag-courses_item">
+          <a
+            href="https://github.com/mou-inoks/ComputerStock"
+            className="ag-courses-item_link"
+          >
+            <div className="ag-courses-item_bg"></div>
 
-        <div class="ag-courses-item_title">
-          UI/Web&amp;Graph design for teenagers 11-17&#160;years old
+            <div className="ag-courses-item_title">
+              Computer Stock Application to manage computers
+            </div>
+
+            <div className="ag-courses-item_date-box">
+              Start:
+              <span className="ag-courses-item_date">04.01.2023</span>
+            </div>
+          </a>
         </div>
 
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+        <div className="ag-courses_item">
+          <a
+            href="https://github.com/mou-inoks/MyTheme"
+            className="ag-courses-item_link"
+          >
+            <div className="ag-courses-item_bg"></div>
+
+            <div className="ag-courses-item_title">Personal VS Code Theme</div>
+
+            <div className="ag-courses-item_date-box">
+              Start:
+              <span className="ag-courses-item_date">20.01.2023</span>
+            </div>
+          </a>
         </div>
-      </a>
+
+        <div className="ag-courses_item">
+          <a
+            href="https://github.com/mou-inoks/SchoolProject"
+            className="ag-courses-item_link"
+          >
+            <div className="ag-courses-item_bg"></div>
+
+            <div className="ag-courses-item_title">
+              UX-UI School project Website
+            </div>
+
+            <div className="ag-courses-item_date-box">
+              Start:
+              <span className="ag-courses-item_date">28.09.2022</span>
+            </div>
+          </a>
+        </div>
+
+        <div className="ag-courses_item">
+          <a
+            href="https://github.com/mou-inoks/easy-meal"
+            className="ag-courses-item_link"
+          >
+            <div className="ag-courses-item_bg"></div>
+
+            <div className="ag-courses-item_title">
+              UX-UI Easy meal Application
+            </div>
+
+            <div className="ag-courses-item_date-box">
+              Start:
+              <span className="ag-courses-item_date">20.01.2023</span>
+            </div>
+          </a>
+        </div>
+
+        <div className="ag-courses_item">
+          <a href="#" className="ag-courses-item_link">
+            <div className="ag-courses-item_bg"></div>
+
+            <div className="ag-courses-item_title">
+              UI-UX ITools modern website
+            </div>
+
+            <div className="ag-courses-item_date-box">
+              Start:
+              <span className="ag-courses-item_date">10.02.2023</span>
+            </div>
+          </a>
+        </div>
+
+        <div className="ag-courses_item">
+          <a
+            href="https://github.com/mou-inoks/Kohlanta"
+            className="ag-courses-item_link"
+          >
+            <div className="ag-courses-item_bg"></div>
+
+            <div className="ag-courses-item_title">Kohlanta game</div>
+          </a>
+        </div>
+
+        <div className="ag-courses_item">
+          <a href="#" className="ag-courses-item_link">
+            <div className="ag-courses-item_bg"></div>
+
+            <div className="ag-courses-item_title">Python tools</div>
+          </a>
+        </div>
+      </div>
     </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          UX/UI Web-Design&#160;+ Mobile Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
-        </div>
-      </a>
-    </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          Annual package "Product+UX/UI+Graph designer&#160;2022"
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
-        </div>
-      </a>
-    </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          Graphic Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
-        </div>
-      </a>
-    </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          Motion Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            30.11.2022
-          </span>
-        </div>
-      </a>
-    </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          Front-end development&#160;+ jQuery&#160;+ CMS
-        </div>
-      </a>
-    </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg">
-        </div>
-        <div class="ag-courses-item_title">
-          Digital Marketing
-        </div>
-      </a>
-    </div>
-
-    <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
-        <div class="ag-courses-item_bg"></div>
-
-        <div class="ag-courses-item_title">
-          Interior Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            31.10.2022
-          </span>
-        </div>
-      </a>
-    </div>
-
-  </div>
-</div>
   );
 };
 export default ProjectCards;
